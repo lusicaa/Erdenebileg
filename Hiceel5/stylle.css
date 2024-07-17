@@ -1,0 +1,46 @@
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  nav {
+    text-align: center;
+    padding: 1rem;
+    height: 5px;
+    background-color: gray;
+  }
+  nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 10px;
+    background-color: gray;
+  }
+  h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(46, 43, 43);
+    height: 60px;
+    margin: 0;
+    padding: 0;
+  } 
+h2{
+    background-color: black;
+    color: white;
+    width: 250px;   
+}
+.Monday{
+    border: 1px solid gray; 
+    width: 40vw;
+    border-radius: 5px;
+
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}

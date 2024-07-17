@@ -1,0 +1,115 @@
+.top{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+}
+.left{
+    height: 90vh;
+    width: 5%;
+    background-color: rgb(255, 255, 255);
+}
+.right{
+    height: 90vh;
+    width: 95%;
+    background-color: rgb(255, 255, 255);
+}
+.tolgoi1{
+    width: 20%;
+    height: 10vh;
+    margin-top: 20px;
+}
+.tolgoi2{
+    width: 40%;
+    height: 10vh;
+    background-color: rgb(255, 255, 255);
+
+}
+.tolgoi3{
+    height: 10vh;
+}
+.filter{
+    height: 5%;
+    width: 100%;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    margin: 0%;
+    font-size: larger;
+}
+.allvideo{
+     height: 90%;
+     width:100%;
+     background-color: rgb(255, 255, 255); 
+     display: flex;
+     justify-content: space-between;
+     font-size: xx-large;
+     flex-wrap: wrap;
+}
+.video1{
+  height: 45%;
+  width: 30%;
+  background-color: rgb(255, 255, 255);
+}
+.img1{
+    background-color: rgb(255, 255, 255);
+    width: 85%;
+    height: 70%;
+    margin: 10px;
+}
+*{
+    box-sizing: border-box;
+}
+.description{
+    width: 85%;
+    height: 30%;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.img3{
+    width: 80%;
+    height: 80%;
+    background-color: rgb(255, 255, 255);
+    margin: 7px;
+    border-radius: 50%;
+}
+.description1{
+    height: 80%;
+    width: 90%;
+    margin: 7px;
+}
+.left_bar{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.search{
+    --padding: 14px;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: var(--padding);
+    border-radius: 28px;
+    background-color: #f6f6f6;
+    width: 600px;
+}
+.search-input{
+    font-size: 16px;
+    font-family: 'Lexend', sans-serif;
+    color: #333333;
+    margin-left: var(--padding);
+    outline: none;
+    border: none;
+    background: transparent;
+    flex: 1;
+    width: 300px;
+}
