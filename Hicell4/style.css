@@ -88,3 +88,11 @@ nav{
   object-fit: contain;
   margin: 100px;
 }
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
