@@ -15,6 +15,7 @@ body{
     height: 90vh;
     width: 5%;
     background-color: rgb(255, 255, 255);
+    display: flex;
 }
 .right{
     height: 90vh;
@@ -52,17 +53,19 @@ body{
      justify-content: space-between;
      font-size: xx-large;
      flex-wrap: wrap;
+     gap: 80px;
 }
 .video1{
-  height: 45%;
-  width: 30%;
+  height: 233.31px;
+  width: 414.79px;
   background-color: rgb(255, 255, 255);
 }
 .img1{
     background-color: rgb(255, 255, 255);
-    width: 85%;
-    height: 70%;
+    width: 414.79px;
+    height: 233.31px;
     margin: 10px;
+    border-radius:
 }
 *{
     box-sizing: border-box;
@@ -89,7 +92,7 @@ body{
 }
 .left_bar{
     display: flex;
-    gap: 30px;
+    gap:30px;
     flex-direction: column;
 }
 .search{
@@ -112,4 +115,11 @@ body{
     background: transparent;
     flex: 1;
     width: 300px;
+}
+img{
+    border-radius: 15px;
+}
+.lf{
+    display: flex;
+    flex-direction: column;
 }
