@@ -16,6 +16,7 @@ body{
     width: 5%;
     background-color: rgb(255, 255, 255);
     display: flex;
+    justify-content: center;
 }
 .right{
     height: 90vh;
@@ -26,6 +27,12 @@ body{
     width: 20%;
     height: 10vh;
     margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: start;
+}
+.tolgoi1 img{
+    margin-left: 20px;
 }
 .tolgoi2{
     width: 40%;
@@ -35,6 +42,18 @@ body{
 }
 .tolgoi3{
     height: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 3px;
+    border-color: gray;
+    border-radius: 15px;
+}
+.tolgoi3 span{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #065fd4;
 }
 .filter{
     height: 5%;
@@ -93,6 +112,7 @@ body{
     display: flex;
     gap:30px;
     flex-direction: column;
+    margin-left: 40px;
 }
 .search{
     --padding: 14px;
