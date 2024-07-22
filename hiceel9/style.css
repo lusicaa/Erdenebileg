@@ -39,9 +39,9 @@
     align-items: center;
 }
 .menus p{
-    font-size: 35px;
     margin: 0;
-    height: 50px;
+    font-family: inherit;
+    height: 19.99px;
 }
 .logos{
     display: flex;
@@ -143,9 +143,8 @@
     height: 95%;
     width: 15%;
 }
-.acc{
-    height: 95%;
-    width: 15%;
+.acc img{
+    border-radius: 60px;
 }
 .logos2{
     width: 20%;
@@ -182,4 +181,30 @@ h1{
 }
 *{
     background-color:#18191a ;
+}
+.search{
+    color: white;
+    height: 40px;
+    width: 40px;
+}
+.sponser img{
+    border-radius: 5px;
+    height: 120px;
+    width: 135px;
+}
+.contacts1 span{
+    color: gray;
+    font-size: 25px;
+}
+.cont img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+.cont{
+    display: flex;
+}
+.cont p{
+    margin-left: 10px;
+    height: 50px;
 }

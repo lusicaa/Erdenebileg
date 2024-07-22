@@ -1,0 +1,98 @@
+
+p {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #ffffff;
+}
+h1 {
+  color: gray;
+  text-align: center;
+  margin-top: 20px;
+  background-color: rgb(255, 255, 255);
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  font-size: xx-large;
+}
+#nikeDesc {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 65px;
+}
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: white;
+}
+main {
+  padding-top: 60px;
+}
+div {
+  text-align: center;
+  padding: 1rem;
+  height: 28px;
+  background-color: rgb(255, 255, 255);
+}
+div a {
+  color: gray;
+  text-decoration: none;
+  margin: 0 10px;
+  background-color: rgb(255, 255, 255);
+}
+div{
+  color: gray;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+img {
+  width: 300px;
+  height: 200px;
+  object-fit: contain;
+}
+h3 {
+  margin: 20px;
+}
+li {
+  margin: 20px;
+}
+img{
+  width: 500px;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+}
+nav{
+  display: flex;
+}
+
+.Monday{
+  border: 1px solid gray; 
+  width: 40vw;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+
+}
+.Monday h2{
+  color: gray;
+  width: 250px;   
+}
+.vd{
+  height: 700px;
+  object-fit: contain;
+  margin: 100px;
+}
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
