@@ -1,58 +1,24 @@
-
-p {
-  margin: 0;
-  padding: 0;
-}
 body {
   background-color: #ffffff;
 }
-h1 {
-  color: gray;
-  text-align: center;
-  margin-top: 20px;
-  background-color: rgb(255, 255, 255);
-  height: 60px;
-  margin: 0;
-  padding: 0;
-  font-size: xx-large;
-}
-#nikeDesc {
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 65px;
-}
 header {
-  width: 100%;
-  position: fixed;
-  top: 0;
-  background-color: white;
+  height: 100px;
+  padding: 0 60px;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 50px;
+  width: 100vw;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+header a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 27px;
 }
 main {
   padding-top: 60px;
-}
-div {
-  text-align: center;
-  padding: 1rem;
-  height: 28px;
-  background-color: rgb(255, 255, 255);
-}
-div a {
-  color: gray;
-  text-decoration: none;
-  margin: 0 10px;
-  background-color: rgb(255, 255, 255);
-}
-div{
-  color: gray;
-  text-decoration: none;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
-img {
-  width: 300px;
-  height: 200px;
-  object-fit: contain;
 }
 h3 {
   margin: 20px;
@@ -60,30 +26,25 @@ h3 {
 li {
   margin: 20px;
 }
-img{
+img {
   width: 500px;
   height: 300px;
   margin: 0;
   padding: 0;
 }
-nav{
-  display: flex;
-}
-
-.Monday{
-  border: 1px solid gray; 
+.Monday {
+  border: 1px solid gray;
   width: 40vw;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   height: 100px;
-
 }
-.Monday h2{
+.Monday h2 {
   color: gray;
-  width: 250px;   
+  font-size: x-large;
 }
-.vd{
+.vd {
   height: 700px;
   object-fit: contain;
   margin: 100px;
@@ -95,4 +56,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+html{
+  scroll-behavior: smooth;
 }
