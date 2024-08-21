@@ -96,6 +96,8 @@ body {
   height: 60px;
   margin-left: 450px;
   margin-bottom: 45px;
+  margin-top: 100px;
+  font-size: 17px;
 }
 .texts1 {
   display: flex;
@@ -106,13 +108,243 @@ body {
   color: black;
   font-size: 15px;
 }
-.img1 {
-  width: 600px;
-  height: 550px;
+.lemonade {
+  width: 58vw;
+  height: 58vw;
+  left: 41vw;
 }
-.img1{
-    background-color: #fbffa7;
-    height: 650px;
-    display: flex;
-    justify-content: end;
+.lemonade {
+  position: absolute;
+  top: 1500px;
+  z-index: 0;
+  background-color: #fbffa7;
+}
+.lemonade_img {
+  position: relative;
+  width: 40vw;
+  height: 25vw;
+  background-image: url(photo-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 800px;
+  top: 500px;
+}
+.lemonade_img1 {
+  position: relative;
+  width: 90vh;
+  margin-left: 60px;
+  height: 45vw;
+  background-image: url(photo-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img1 {
+  display: flex;
+  justify-content: center;
+}
+.img1_text {
+  display: flex;
+  justify-content: center;
+  margin-right: 600px;
+}
+.lime {
+  width: 58.33333vw;
+  height: 75vw;
+  position: absolute;
+  background-color: #b6ffc0;
+  margin-top: 150px;
+}
+.lime_img {
+  position: relative;
+  width: 33vw;
+  height: 25vw;
+  background-image: url(photo-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 100px;
+  top: 250px;
+}
+.lime_img1 {
+  position: relative;
+  width: 33vw;
+  height: 25vw;
+  background-image: url(photo-4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 100px;
+  top: 400px;
+}
+.big_img {
+  position: relative;
+  width: 40vw;
+  height: 40vw;
+  background-image: url(photo-5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 800px;
+  bottom: 400px;
+}
+.big_img1 {
+  position: relative;
+  width: 85vw;
+  margin-top: 100px;
+  margin-right: 50px;
+  margin-left: 100px;
+  height: 45vw;
+  background-image: url(poster-meet-the-makers.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.texts2 {
+  display: flex;
+  width: 45%;
+  height: 60px;
+  margin-left: 450px;
+  color: black;
+  font-size: 15px;
+}
+.purple {
+  width: 66vw;
+  height: 58vw;
+  left: 16.66667vw;
+  margin-top: 50px;
+  position: absolute;
+  background-color: #d5b3ff;
+}
+.purple_img {
+  position: relative;
+  width: 33vw;
+  height: 25vw;
+  background-image: url(photo-6-a.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 150px;
+  top: 300px;
+}
+.purple_big_img {
+  position: relative;
+  width: 40vw;
+  height: 40vw;
+  left: 900px;
+  bottom: 200px;
+  background-image: url(photo-7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aqua {
+  width: 650px;
+  height: 550px;
+  left: 50vw;
+  margin-top: 100px;
+  position: absolute;
+  background-color: #b1c5ff;
+}
+.aqua_img {
+  position: relative;
+  width: 650px;
+  height: 550px;
+  left: 8vw;
+  margin-top: 100px;
+  background-image: url(photo-8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aqua h2 {
+  margin: 0;
+  position: absolute;
+  bottom: 13vw;
+  flex-wrap: wrap;
+  display: flex;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+}
+.ab1 {
+  margin-top: 50px;
+  margin-left: 150px;
+}
+.sign h4 {
+  padding: 10px;
+  padding-right: 200px;
+  border: 1px solid #eee;
+  background-color: #eee;
+}
+.sign {
+  display: flex;
+}
+.sign h5 {
+  padding: 10px;
+  border: 1px solid black;
+  background-color: #0000ff;
+}
+.ab2 {
+  margin-left: 150px;
+  margin-top: 50px;
+}
+.ab3 {
+  position: relative;
+  right: 700px;
+}
+.ab4 {
+  position: relative;
+  right: 750px;
+  top: 250px;
+  display: flex;
+  flex-direction: column;
+}
+.loc h3 {
+  display: flex;
+  padding: 10px;
+  border: 1px solid #eee;
+  background-color: #eee;
+  width: 150px;
+}
+.loc h4 {
+  position: relative;
+  left: 160px;
+  bottom: 65px;
+  height: 43.2px;
+  display: flex;
+  padding: 10px;
+  border: 1px solid #eee;
+  background-color: #eee;
+  width: 200px;
+}
+.arrow {
+  left: 120px;
+  bottom: 110px;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  background-image: url(arrow-down-icon.svg);
+  background-repeat: no-repeat;
+}
+.arrow1 {
+  left: 330px;
+  bottom: 130px;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  background-image: url(arrow-down-icon.svg);
+  background-repeat: no-repeat;
+}
+.end {
+  display: flex;
+  position: relative;
+  top: 500px;
+  right: 1200px;
+  flex-direction: row;
+}
+.end1{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.ab h1{
+  font-size: 70px;
 }
