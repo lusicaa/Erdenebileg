@@ -340,11 +340,11 @@ footer {
   right: 1200px;
   flex-direction: row;
 }
-.end1{
+.end1 {
   display: flex;
   justify-content: end;
   align-items: end;
 }
-.ab h1{
+.ab h1 {
   font-size: 70px;
 }
